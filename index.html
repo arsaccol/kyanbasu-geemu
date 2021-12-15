@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>エアゲーム！</title>
+        <script src="src/main.js" type="module"></script>
+        <style>
+
+            #game-canvas{
+                display: flex;
+
+                box-sizing: border-box;
+
+                border: solid black 10px;
+                touch-action: none;
+            }
+
+            #wrapper {
+                font-size: xx-large;
+                /*
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                */
+
+                /* box-sizing: border-box;
+                width: 100%; */
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div id="frame-rate"></div>
+            <canvas id="game-canvas" height="1080" width="1080"></canvas>
+            <div id="debug-info"></div>
+        </div>
+
+    </body>
+
+</html>
